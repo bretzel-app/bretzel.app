@@ -16,5 +16,5 @@
 			class="text-text-muted hover:text-primary transition-colors duration-150"
 		>MIT License</a>
 	</div>
-	<p class="text-xs text-text-muted">Made in France 🇫🇷</p>
+	<p class="text-xs text-text-muted">Made with 🥨 in Strasbourg</p>
 </footer>
