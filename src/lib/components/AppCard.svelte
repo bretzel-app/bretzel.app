@@ -1,6 +1,6 @@
 <script lang="ts">
 	let {
-		emoji,
+		icon,
 		name,
 		tagline,
 		description,
@@ -8,7 +8,7 @@
 		githubUrl,
 		status = 'live'
 	}: {
-		emoji: string;
+		icon: string;
 		name: string;
 		tagline: string;
 		description: string;
@@ -26,7 +26,7 @@
 >
 	<div class="flex items-start justify-between mb-4">
 		<div class="flex items-center gap-3">
-			<span class="text-3xl">{emoji}</span>
+			<img src={icon} alt="{name} logo" class="w-10 h-10" style="image-rendering: pixelated;" />
 			<div>
 				<h3 class="text-sm mb-1 text-text">{name}</h3>
 				<p class="text-xs text-text-muted font-mono">{tagline}</p>

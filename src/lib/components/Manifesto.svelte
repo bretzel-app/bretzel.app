@@ -7,7 +7,7 @@
 				Most apps treat <span class="text-primary">your</span> data as their business model. We think software should work for the people who use it — not the other way around.
 			</p>
 			<p>
-				Bretzel apps are built to be self-hosted. <span class="text-primary">Your</span> notes, <span class="text-primary">your</span> server, <span class="text-primary">your</span> rules. No tracking, no analytics, no third-party services phoning home.
+				Bretzel apps are built to be self-hosted. <span class="text-primary">Your</span> data, <span class="text-primary">your</span> server, <span class="text-primary">your</span> rules. No tracking, no analytics, no third-party services phoning home.
 			</p>
 			<p>
 				Everything is open source under the MIT license. Read the code, modify it, deploy it however you want. That's the deal.
