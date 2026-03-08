@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Bretzel — Self-hosted apps, baked in Europe</title>
+	<title>Bretzel — Self-hosted apps, baked in Strasbourg</title>
 	<meta name="description" content="Bretzel is a suite of open source, self-hosted web apps. Privacy-first, EU-made, no cloud required." />
 </svelte:head>
 
