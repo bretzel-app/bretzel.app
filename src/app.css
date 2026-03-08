@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+	--color-bg-base: #1a1a2e;
+	--color-bg-surface: #232340;
+	--color-bg-elevated: #2d2d52;
+	--color-primary: #C8860A;
+	--color-primary-hover: #E8A020;
+	--color-text: #f0e6d3;
+	--color-text-muted: #a89b8c;
+	--color-border: #f0e6d3;
+	--color-border-subtle: #3a3a5c;
+	--font-pixel: 'Press Start 2P', cursive;
+	--font-mono: 'JetBrains Mono', monospace;
+}
+
+/* ── Base ── */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-mono);
+	color: var(--color-text);
+	background-color: var(--color-bg-base);
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Pixel grid overlay */
+body::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	opacity: 0.03;
+	background-image: repeating-conic-gradient(#f0e6d3 0% 25%, transparent 0% 50%);
+	background-size: 4px 4px;
+	z-index: 0;
+}
+
+body > * {
+	position: relative;
+	z-index: 1;
+}
+
+/* ── Typography ── */
+h1, h2, h3 {
+	font-family: var(--font-pixel);
+	line-height: 1.4;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+	transition: color 150ms ease-out;
+}
+
+a:hover {
+	color: var(--color-primary-hover);
+}
