@@ -23,7 +23,7 @@
 			<div class="bg-bg-surface border-2 border-border-subtle rounded-sm p-5 text-center shadow-[2px_2px_0px_#0e0e1e]">
 				<div class="text-2xl mb-3">🇪🇺</div>
 				<h3 class="text-[0.6rem] mb-2 text-text">EU-made</h3>
-				<p class="text-xs text-text-muted">Built in France, privacy by design</p>
+				<p class="text-xs text-text-muted">Built in Strasbourg, France. Privacy by design</p>
 			</div>
 			<div class="bg-bg-surface border-2 border-border-subtle rounded-sm p-5 text-center shadow-[2px_2px_0px_#0e0e1e]">
 				<div class="text-2xl mb-3">📖</div>
