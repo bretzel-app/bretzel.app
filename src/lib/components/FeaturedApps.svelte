@@ -22,6 +22,14 @@
 				url="https://42.bretzel.app"
 				githubUrl="https://github.com/bretzel-app/42"
 			/>
+			<AppCard
+				icon="/pinepods-lite-logo.png"
+				name="PinePods Lite"
+				tagline="Offline-first podcast player"
+				description="A lightweight client for self-hosted PinePods servers, with multi-account switching, downloadable episodes, and full functionality with no connection at all. Your server, your podcasts, your rules."
+				url="https://pinepods.bretzel.app"
+				githubUrl="https://github.com/bretzel-app/pinepods-lite"
+			/>
 		</div>
 	</div>
 </section>
