@@ -12,7 +12,7 @@
 		name: string;
 		tagline: string;
 		description: string;
-		url: string;
+		url?: string;
 		githubUrl: string;
 		status?: string;
 	} = $props();
@@ -39,13 +39,15 @@
 		{/if}
 	</div>
 	<p class="text-sm text-text-muted leading-relaxed mb-4">{description}</p>
-	<div class="flex items-center justify-between text-xs text-text-muted">
-		<a
-			href={url}
-			target="_blank"
-			rel="noopener noreferrer"
-			class="group-hover:text-primary transition-colors duration-150"
-		>Visit app →</a>
+	<div class="flex items-center text-xs text-text-muted" class:justify-between={url} class:justify-end={!url}>
+		{#if url}
+			<a
+				href={url}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="group-hover:text-primary transition-colors duration-150"
+			>Visit app →</a>
+		{/if}
 		<a
 			href={githubUrl}
 			target="_blank"
